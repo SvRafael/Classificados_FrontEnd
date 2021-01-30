@@ -1,0 +1,39 @@
+.divButton{
+   margin: 3em 8em 0em 8em;
+   align-self: baseline;
+   font-family: 'Roboto', sans-serif;
+   margin-top: 8em;
+}
+
+label{
+   font-family: 'Roboto', sans-serif;
+   font-size: 35PX;
+   color: #1f0344;
+   font-weight: bold;
+}
+
+.MuiButton-containedPrimary {
+   color: #fff !important;
+   background-color: #1f0344 !important;
+   float: right;
+   flex: 1;
+ }
+
+ @media(max-width: 800px){
+   .divButton{
+      display: grid;
+      align-items: center;
+      text-align: center;
+   }
+
+   .MuiButton-containedPrimary {
+      color: #fff !important;
+      background-color: #1f0344 !important;
+    }
+
+    .divButton .MuiButton-containedPrimary {
+      width: 100%;
+      margin-top: 1em !important;
+  }
+ }
+

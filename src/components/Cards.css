@@ -1,0 +1,45 @@
+.MuiTypography-colorTextSecondary {
+    color: #ffffff !important;
+}
+
+.divCards{
+    margin: 3em 2em 2em 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.CardContent{
+    background-color: #000000;
+    color: #8a05ac;
+}
+
+.CardHeader{
+    background-color: #1f0344;
+    color: #8a05ac;
+}
+
+.root{
+    width: 345px;
+    max-width: 345px;
+    min-width: 345px;
+    margin: 1em 1em 1em 1em;
+    display: table-column;
+    box-shadow: 5px 5px 10px #000000;
+}
+
+.root:hover {
+    width: 405px;
+    margin: 1em 1em 1em 1em;
+    display: table-column;
+    max-width: 405px;
+    box-shadow:5px 5px 10px #7d049b;
+}
+
+@media(max-width: 800px){
+    .divCards{
+        margin: 4em 2em 2em 2em;
+    }
+    
+  }

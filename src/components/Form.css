@@ -1,0 +1,54 @@
+form{
+    display: grid;
+}
+
+.divForm .MuiButton-containedPrimary {
+    width: 100%;
+    margin-top: 1em !important;
+}
+
+.divForm{
+    display: grid;
+    margin-top: 3em;
+}
+
+.container-class{
+    background-color: '#ffffff'; 
+    height: 40vh; 
+    margin-top: 5em !important;
+    padding: 5em;
+    box-shadow: 0 0 5px 5px  #1f0344;
+    color: #1f0344;
+}
+
+
+.MuiContainer-root {
+     width: 600px !important; 
+     display: block; 
+    box-sizing: border-box; 
+     margin-left: auto; 
+     margin-right: auto; 
+     padding-left: 16px; 
+     padding-right: 16px; 
+}
+
+@media(max-width: 800px){
+    .MuiContainer-root {
+        width: 400px !important; 
+        height: 400px;
+   }
+
+   .container-class{
+    background-color: '#ffffff'; 
+    height: 65vh; 
+    margin-top: 1em !important;
+    padding: 10px;
+    box-shadow: 0 0 5px 5px  #1f0344;
+    color: #1f0344;
+}
+
+h1{
+    margin-bottom: -10px;
+    margin-top: -2px;
+}
+  }

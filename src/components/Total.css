@@ -1,0 +1,27 @@
+.divTotal{
+    background-color:#1f0344;
+    display: flex;
+    width: 93%;
+    min-width: 450px;
+    margin-left: 3em;
+    border-radius: 5px;
+    color: #8a05ac;
+    padding: 25px 0px 0px 20px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.divTotal h1{
+    margin-top: -1%;
+}
+
+@media(max-width: 800px){
+    .divTotal{
+        width: 30%;
+        min-width: 370px;
+        text-align: center;
+        display: grid;
+    }
+  }
